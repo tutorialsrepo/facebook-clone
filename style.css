@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+header input {
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: rgb(231, 227, 227);
+  /* color: white; */
+}
+
+.header-center > span,
+.header-right span {
+  padding: 20px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+}
+.fa-home {
+  padding: 10px;
+  margin: 10px;
+}
+.sidebar {
+  width: 300px;
+  /* background-color: gray; */
+  height: 100vh;
+  overflow-y: visible;
+}
+
+.sidebar-Profile {
+  display: flex;
+  align-items: center;
+}
+.sidebar > * {
+  font-size: 18px;
+  padding: 20px;
+}
+.sidebar-Profile img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.sidebar-Profile span {
+  color: black;
+  padding: 10px;
+}
+.sidebar-options > * {
+  padding: 20px 0px;
+}
+
+.sidebar-options div i {
+  padding-right: 10px;
+}
+.posts {
+  width: 60%;
+  background-color: rgb(227, 220, 220);
+  padding: 10px 70px;
+}
+
+.post-status {
+  display: flex;
+  flex-wrap: wrap;
+}
+.status {
+  width: 140px;
+  border-radius: 20;
+  margin: 20px;
+}
+.status p {
+  background: white;
+  padding: 10px 0 10px 0px;
+  margin-top: -5px;
+  border-radius: 0 0 15px 15px;
+}
+.status p {
+  text-align: center;
+}
+.status p i {
+  font-size: 17px;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-top: -100px;
+}
+.status img {
+  width: 140px;
+  border-radius: 15px 15px 0 0;
+}
+.radius-botton img {
+  border-radius: 15px;
+}
+
+.add-post-content {
+  background-color: white;
+  border-radius: 20px;
+  /* height: 100px; */
+  padding: 10px;
+  /* width: 80%; */
+}
+.add-post-content div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.add-post-content div input {
+  display: flex;
+  height: 10px;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  background: rgb(234, 234, 234);
+  margin-left: 10px;
+}
+
+.add-post-content div img {
+  border-radius: 50%;
+}
+.vidoe-photo div .fa-video {
+  color: red;
+  margin-right: 10px;
+}
+.fa-images {
+  color: green;
+  margin-right: 10px;
+}
+.vidoe-photo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.post-content {
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.post-header {
+  display: flex;
+}
+.post-header div {
+  margin: 10px;
+}
+.post-header div img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.post-header div span {
+  color: gray;
+}
+.like-comment {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.no-like-comment {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.no-like-comment i {
+  background-color: #3578e5;
+  padding: 4px;
+  border-radius: 50%;
+  color: white;
+}
+
+.like-comment-share {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+.like-comment-share span {
+  cursor: pointer;
+  color: gray;
+}
+
+.fa-thumbs-up {
+  margin-right: 10px;
+}
+
+.contact-content {
+  padding: 20px 0 20px 20px;
+}
+
+.birthday {
+  padding: 15px 0px;
+}
+.birthday h2 {
+  margin-bottom: 10px;
+}
+
+.birthday div {
+  font-size: 18px;
+}
+
+.birthday-pepoles {
+  display: flex;
+}
+
+.fa-gift {
+  font-size: 20px;
+  color: #1877f2;
+  margin-right: 10px;
+}
+
+.contact-list h2 {
+  margin: 20px 0px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.contact:hover {
+  background-color: rgb(217, 215, 215);
+}
+.contact img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contact h3 {
+}
